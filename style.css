@@ -1,0 +1,60 @@
+html,
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+.webgl {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.section1
+{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 3.8vmin;
+    padding-left: 7%;
+    padding-right: 45%;
+    line-height: 1.35;
+    letter-spacing: 0.01em;
+    word-spacing: 0.05em;
+}
+
+
+.section2
+{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 0;
+    font-style: normal;
+    color: #527906;
+    text-transform: uppercase;
+    font-size: 3vmin;
+    padding-left: 7%;
+    padding-right: 45%;
+    line-height: 1.35;
+    letter-spacing: 0.01em;
+    word-spacing: 0.05em;
+}
+
+
+section:nth-child(odd)
+{
+    justify-content: flex-end;
+}
