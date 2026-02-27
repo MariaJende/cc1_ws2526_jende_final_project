@@ -19,8 +19,7 @@ Used Claude.ai and Stack Overflow for inspiration, debugging and explanations
 // Imports
 // -------------------------------------
 
-//import * as THREE from "three";
-import {..} from './three.js'
+import * as THREE from "three";
 import { OrbitControls } from "./three/examples/jsm/controls/OrbitControls.js";
 import { HDRLoader } from "./three/addons/loaders/HDRLoader.js";
 
