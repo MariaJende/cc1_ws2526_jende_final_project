@@ -56,7 +56,7 @@ controls.enableDamping = true;
 // -------------------------------------
 
 const hdrLoader = new HDRLoader();
-hdrLoader.load("textures/SunnyBackground.hdr", (hdr) => {
+hdrLoader.load("./textures/SunnyBackground.hdr", (hdr) => {
   hdr.mapping = THREE.EquirectangularReflectionMapping;
   scene.background = hdr;
   scene.environment = hdr;
