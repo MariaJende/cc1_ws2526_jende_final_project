@@ -4,7 +4,7 @@
 
 Code - Daffodil point cloud and color gradient: Make Beautiful 3D Flowers in p5.js: 1/2 by Kazuki Umeda https://www.youtube.com/watch?v=8fgJ6i96fTY
 
-Code - Interactions and Background Particles: Scroll-Based Animation Course by Bruno Simon https://threejs-journey.com/lessons/scroll-based-animation
+Code - Interactions and Background Particles: Scroll-Based Animation Course and Raycast and Mouse Events by Bruno Simon https://threejs-journey.com/lessons/scroll-based-animation, https://threejs-journey.com/lessons/raycaster-and-mouse-events
 
 HDR Background (edited): https://polyhaven.com/a/scythian_tombs_2
 
