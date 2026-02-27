@@ -20,8 +20,8 @@ Used Claude.ai and Stack Overflow for inspiration, debugging and explanations
 // -------------------------------------
 
 import * as THREE from "three";
-import { OrbitControls } from "./three/examples/jsm/controls/OrbitControls.js";
-import { HDRLoader } from "./three/addons/loaders/HDRLoader.js";
+import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
+import { HDRLoader } from "three/addons/loaders/HDRLoader.js";
 
 
 // -------------------------------------
@@ -56,7 +56,7 @@ controls.enableDamping = true;
 // -------------------------------------
 
 const hdrLoader = new HDRLoader();
-hdrLoader.load("./textures/SunnyBackground.hdr", (hdr) => {
+hdrLoader.load("/textures/SunnyBackground.hdr", (hdr) => {
   hdr.mapping = THREE.EquirectangularReflectionMapping;
   scene.background = hdr;
   scene.environment = hdr;
@@ -74,7 +74,7 @@ const arows = 120; //defines max vertice amount for theta
 const acols = 420; //defines max vertice amount for pi
 
 const textureLoader = new THREE.TextureLoader() //Alpha-Image so Particles get circular shape
-const particleTexture = textureLoader.load('./textures/glow.png')
+const particleTexture = textureLoader.load('/textures/glow.png')
 
 //d stands for daffodil, p stands for flower petal, a stands for amount
 
